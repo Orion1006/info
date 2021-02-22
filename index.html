@@ -2,61 +2,87 @@
 <html>
 
 <head>
-    <link href="styles.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>
         Лабораторная работа №1
-    </title>
+    </title> 
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    
+</head>
 
 <body>
-    <header>
-        <h1 align="center">Обо мне</h1>
-        <section class="intro">
-            <div class="container">
-                <p style="text-align: center;">
-                    <a>
-                        <img src="https://images11.esquire.ru/upload/img_cache/acf/acfbe9979332a4bab9cec3485f678f61_ce_1080x673x0x0_cropped_960x600.jpg"
-                            width="720" height="" alt="Фотография Кота">
-                    </a>
-                </p>
+    <header class="header">
+        <div class="container">
+            <nav class="main-menu">
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#simple">Simple</a>
+            </nav>
+
+            <div class="text-center py-5">
+                <h1>Давлетбаев Ильдар Амирович</h1>
+                <h2>Он пытался кодить, но код был его сильнее</h2>
+                <h3>Учусь в Политехе на IT факультете по направлению информационная безопасность</h3>
             </div>
-            <h2 class="info" style="text-align: center;">Немного о себе:</h2>
-            <div>
-                <p style="text-align: center;">Меня зовут Ильдар Давлетбаев . я учусь в Политехе на IT факультете
-                    по направлению информационная безопасность.</p>
+        </div>
 
     </header>
+
     <main>
-        <style>
-            body {
-                background: #6e6b6e;
-                background-size: cover;
-                color: white;
-            }
-        </style>
-        <li>Родился в Казани 17 августа. В возрасте 3 лет переехал с семьей в Москву. В Москве закончил садик и поступил
-            в школу. Во втором классе переехали с семьей в другую квартиру, а следовательно в новый район. Поступил в
-            новую школу вместе с старшим братом, а там познакомился с лучшим другом на тот момент. Его мама хотела чтоб
-            он учился в лицее и всячески его тренировала для поступления туда. В свою очередь, я хотел и дальше общаться
-            с ним, так что никого не предупредив я ездил с ним сдавать вступительные экзамены и благополучно их сдал.
-            Поставив перед этим фактом родителей они подали документы в этот лицей и так я стал там учиться. В 12 лет я
-            понял что хочу связать свою жизнь с IT и пошел на курсы HTML, а дальше понеслась. С 7 класса я обучался в
-            инфотехе (класс с уклоном в технолигии) и продолжал сам развиваться в этом направлении. В школьные года я
-            вытворял очень много вещей связанных с взломами дневников и разных сетей, но об этом лучше не рассказывать.
-            Засветившись перед завучем меня назначили на обеспечение технической части на выступлениях, дискотеках и тд,
-            так что в 8 и 9 классе я редко бывал на всех уроках, так как постоянно нужна была какая-то помощь, но я был
-            только рад, все прекрасно знали что я отлично справлялся с этими обязанностями. За это время я провел около
-            5 выпускных у 9 и 11 классов, но со временем это стало надоедать, и хотя иметь привилегированное положение у
-            всех учителей крайне неплохо, но я устал от постоянной помощи, так что со временем я отказался от этой
-            должности. В это время я стал заниматься гитарой и довольно неплохо преуспевал в этом деле. Благодаря
-            изучению английского языка с самого детства, в конце 10 класса мама отправила меня в лондон на обучение. В
-            11 классе было тоже много чего интересного, но большую часть времени забирало ЕГЭ. После экзаменов я
-            поступил в Политех где обучаюсь и посей день </a>
+        <div class="container">
+            <section id="about">
+                <h1>About me</h1>
 
-        </li>
+                <figure class="avatar">
+                    <img src="images/zinger.jpg" alt="Cat">
+                </figure>
+
+                <p>Родился в Казани 17 августа. В возрасте 3 лет переехал с семьей в Москву. В Москве закончил садик и поступил
+                    в школу. Во втором классе переехали с семьей в другую квартиру, а следовательно в новый район. Поступил в
+                    новую школу вместе с старшим братом, а там познакомился с лучшим другом на тот момент. Его мама хотела чтоб
+                    он учился в лицее и всячески его тренировала для поступления туда. В свою очередь, я хотел и дальше общаться
+                    с ним, так что никого не предупредив я ездил с ним сдавать вступительные экзамены и благополучно их сдал.
+                    Поставив перед этим фактом родителей они подали документы в этот лицей и так я стал там учиться. В 12 лет я
+                    понял что хочу связать свою жизнь с IT. После экзаменов я поступил в Политех где обучаюсь и посей день</p>
+            </section>
+
+            <section id="skills">
+                <h1>Skills</h1>
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
+                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </section>
+
+            <section id="simple">
+                <h1>Simple</h1>
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                    born and I will give you a complete account of the system, and expound the actual teachings of the
+                    great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or
+                    avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue
+                    pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who
+                    loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally
+                    circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial
+                    example, which of us ever undertakes laborious physical exercise, except to obtain some advantage
+                    from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no
+                    annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+            </section>
+        </div>
+
     </main>
-    <footer>
 
+    <footer class="footer">
+        <div class="container">
+            &copy; Давлетбаев И. А.
+            <a href="https://vk.com/orion_me">Для связи</a>
+        </div>
+        
     </footer>
 </body>
 
